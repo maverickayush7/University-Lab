@@ -1,0 +1,5 @@
+str1=input("Enter the string of 4 character:")
+print(chr(ord(str1[0])+1),end='')
+print(chr(ord(str1[1])+1),end='')
+print(chr(ord(str1[2])+1),end='')
+print(chr(ord(str1[3])+1))

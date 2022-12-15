@@ -1,0 +1,11 @@
+name=(input("Enter your name:"))
+SRN=(input("Enter your SRN:"))
+m1=int(input("Enter m1:"))
+m2=int(input("Enter m2:"))
+m3=int(input("Enter m3:"))
+m4=int(input("Enter m4:"))
+m5=int(input("Enter m5:"))
+sum = (m1+m2+m3+m4+m5)
+avg = (sum/500)*100
+print ("Name","SRN","Marks1","Marks2","Marks3","Marks4","Marks5","sum","Percentage")
+print(name,SRN,m1,m2,m3,m4,m5,sum,avg,sep='\t')

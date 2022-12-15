@@ -1,0 +1,7 @@
+write a program that takes the file name from the user and counts the number of words in that file
+write a program that takes the file name from the user and counts the number of words in that file
+hey this is ayush
+hey this is atharva
+hey this is aryan 
+hey this is aditya
+hey this is me here 

@@ -1,0 +1,5 @@
+print("ENTER YOUR HEIGHT IN FEET AND INCHES")
+a=int(input("Enter feet:"))
+b=float(input("Enter inches:"))
+h=(a*30.48)+(b*2.54)
+print("Height in centimetre:",round(h,1))
