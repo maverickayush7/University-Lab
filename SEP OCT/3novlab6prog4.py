@@ -1,1 +1,0 @@
-#given the heterogeneous list,create separate lists for different types of  data  
