@@ -1,17 +1,21 @@
 #3 program to find the addition of two matrices
 
-print("Enter a 3x3 matrix")
-lst1=list(map(int,input("Enter first row of matrix:").split()))
-lst2=list(map(int,input("Enter second row of matrix:").split()))
-lst3=list(map(int,input("Enter third row of matrix:").split()))
-
-for i in range (len(lst1)):
-    lst1[i]+=1
-for i in range (len(lst2)):
-    lst2[i]+=1
-for i in range (len(lst3)):
-    lst3[i]+=1
-
-print(lst1)
-print(lst2)
-print(lst3)
+X = [[1,2,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+ 
+Y = [[9,8,7],
+    [6,3,4],
+    [3,2,1]]
+ 
+ 
+result = [[0,0,0],
+        [0,0,0],
+        [0,0,0]]
+ 
+for i in range(len(X)):  
+    for j in range(len(X[0])):
+        result[i][j] = X[i][j] + Y[i][j]
+ 
+for r in result:
+    print(r)
