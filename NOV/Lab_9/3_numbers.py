@@ -26,8 +26,10 @@ ens = []
 
 for i in range(1, n+1):
     if is_even(i):
-        if is_square(i): se.append(i)
-        else: ens.append(i)
+        if is_square(i):
+            se.append(i)
+        else: 
+            ens.append(i)
 
 print("square and even: ", se)
 print("even and not square: ", ens)
