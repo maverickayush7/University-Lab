@@ -10,11 +10,6 @@ class Company:
         return productivity
 
 
-company = Company(
-    companyName="MED",
-    turnover=2000,
-    revenue=5000,
-    noOfEmployees=5,
-)
+company = Company("MED",2000,5000,5)
 
-print(f"productivity: {company.getProductivity()}")
+print("productivity:" , company.getProductivity())
